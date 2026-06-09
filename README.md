@@ -1,6 +1,8 @@
 # Image-Recognition-Pretrained-TF
 Neuron own the ability to know the forms 
 
+open <https://keduldepaul.github.io/Image-Recognition-Pretrained-TF/> to see the page
+
 Image recognition using pretrained model using Google Colab and TensorFlow, which samples are by Quick, Draw! 
 
 This project was intentionally being a p5 web editor project that the editor turn out to be error to import tf model.
