@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+  <title>Image-Recognition-Pretrained-TF</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://cdn.jsdelivr.net/npm/p5@2.2.2/lib/p5.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/p5@2.2.2/lib/addons/p5.sound.min.js"></script>
   <script src="
@@ -17,16 +19,19 @@
 <body>
   <div class="container">
     <div class="text">
-      <p class="fs-5" style="margin-bottom: 0px">
-        Draw cat 🐈, rainbow 🌈, or train 🚂 and let the neural network guess!
+      <p id="nn-title" class="fs-4" style="margin: 0.75em 0.25em 0em; font-weight: bold;">
+        Draw 🐈 Cat, 🌈 Rainbow, or 🚂 Train and Let the Neural Network Guess!
       </p>
     </div>
-    <button id="guess" class="btn btn-primary">Guess</button>
-    <button id="cls" class="btn btn-light">Clear</button>
+    <div id="buttons-bar">
+      <button id="guess" class="btn btn-primary">Guess</button>
+      <button id="cls" class="btn btn-light">Clear</button>
+    </div>
     <main class="p5-container">
     </main>
     <div id="result" class="text">--Result here--</div>
     <div class="text">
+      <noscript class="warning"><h1> :( </h1> Javascript is disabled or may be you are using unsupported ancient browser, please turn on if you are using modern browser!</noscript>
       <p>
         The training process done by google colab with TensorFlow python with accuracy up to 96%, then the model is
         exported and imported for TensorFlow.js.
@@ -35,6 +40,9 @@
         <p>
         Visit <a href="https://github.com/googlecreativelab/quickdraw-dataset">Quick, Draw! dataset</a> to get the dataset and experience
         for yourself. (Machine learning ability required) 😉
+      </p>
+      <p>
+        Visit this project <a href="https://github.com/KeduldePaul/Image-Recognition-Pretrained-TF">repository</a> to see the code.
       </p>
       <p>
         <a href="https://www.google.com">Google</a>
