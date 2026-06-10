@@ -9,7 +9,9 @@ let labels = [
 ];
 
 async function setup() {
-  createCanvas(320, 320);
+  let canvas = createCanvas(320, 320);
+  canvas.html('<div class="warning"><h1> :( </h1> <p style="font-style: italic">Your browser does not support HTML5 canvas, or JavaScript is disabled. Please upgrade your browser to view this interactive experience.</p></div>');
+  
   background(255);
 
   const guessBtn = select('#guess');
