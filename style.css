@@ -13,6 +13,9 @@ canvas {
   display: block;
   border: 1px solid #232f3b;
 }
+div#buttons-bar {
+  margin-bottom: 0.5rem;
+}
 button {
   margin: 0.55em;
   padding: 0.55em;
@@ -30,6 +33,16 @@ main {
 }
 .text {
   color:#cecece;
+}
+.warning {
+  font-family: saira, Monospace;
+  color: #f0a963;
+  border: 0.5px solid #5d564f;
+  width: fit-content;
+  padding: 1rem;
+  padding-bottom: 1.5rem;
+  margin: 0.75rem 0rem;
+  display: inline-block;
 }
 #result {
   font-family: saira, Monospace;
